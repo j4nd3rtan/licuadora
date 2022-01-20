@@ -1,0 +1,24 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+.blender{
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    width: 250px;
+    height: 500px;
+    background-image: url("../img/licuadoraApagada.jpg");
+    background-repeat: no-repeat   
+}
+.blender.active{
+    background-image: url("../img/licuadoraencendida.gif.gif");
+}
+.blender-button{
+    margin: 220px 20px;
+    width: 50px;
+    height: 70px;
+    background-color: blue;
+}
